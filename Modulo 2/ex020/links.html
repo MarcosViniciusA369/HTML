@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;background-color: rgb(122, 247, 247);
+        }
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-size: 30px;
+            color: red;
+            
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: black;
+        }
+        a::before{
+            content: '* ';
+        }
+        a::after{
+            content: ' [Link]';
+            color: rgb(184, 184, 184);
+        }
+        .especial{
+            background-color: rgba(250, 234, 162, 0.671);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizado Links</h1>
+    <h2>MAXPLAY</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UC7KDEY22eDQWcDwLPJfZmcw/videos" target="_black" class="especial">YOUTUBE</a></li>
+        <li><a href="https://www.instagram.com/maxplay1816/" target="_black">INSTAGRAM</a></li>
+        <li><a href="https://soundcloud.com/maxplay-470307248" target="_black">SOUNDCLOUD</a></li>
+    </ul>
+</body>
+</html>
